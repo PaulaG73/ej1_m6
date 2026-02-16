@@ -1,10 +1,6 @@
 <template>
     <div class="grilla">
-<CardComponent
-v-for="product in products"
-:key="product.id"
-product="product"
-/>
+        <CardComponent v-for="product in products" :key="product.id" products="products" />
     </div>
 </template>
 
@@ -13,7 +9,7 @@ import CardComponent from './CardComponent.vue';
 import { defineProps } from 'vue';
 
 defineProps({
-    products:{
+    products: {
         type: Array,
         required: true
     }
@@ -22,10 +18,10 @@ defineProps({
 </script>
 
 <style scoped>
-.grilla{
-
+.grilla {
+    padding: 15px 20px;
     display: flex;
-    flex:row ;
+    flex: row;
     justify-content: space-between;
     flex-wrap: wrap;
 }

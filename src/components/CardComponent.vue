@@ -7,9 +7,12 @@
             <p>Disponible:{{ active }}</p>
         </div>
     </div>
+
+  
 </template>
 
 <script setup>
+
 import { defineProps } from 'vue';
 defineProps({
     name:{
@@ -31,5 +34,8 @@ defineProps({
 </script>
 
 <style>
+
+
+
 
 </style>
