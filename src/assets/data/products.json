@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Grand Levita Brut Nature",
+    "description": "Espumante Método tradicional, Brut Nature, 100% Syrah orgánico",
+    "precio": 37.990,
+    "active": true
+  },
+  {
+    "id": 2,
+    "nombre": "El Infaltable Pinot Noir",
+    "description": "Vino tinto de guarda, 100% Pinot Noir",
+    "precio": 27.990,
+    "active": false
+  },
+  {
+    "id": 3,
+    "nombre": "El Infaltable Carménère",
+    "description": "Vino tinto de guarda, 100% Carménère",
+    "precio": 18.990,
+    "active": true
+  },
+  {
+    "id": 4,
+    "nombre": "Ai! Brut",
+    "description": "Espumante método Charmat, Brut, 60% Chardonnay/40% Pinot Noir",
+    "precio": 14.990,
+    "active": true
+  },
+  {
+    "id": 5,
+    "nombre": "Livianita de Sangre",
+    "description": "Espumante, Cocktail Brut, Zero azúcar añadida, con flor de sauco, flor de hibisco y murta",
+    "precio": 13.990,
+    "active": false
+  },
+  {
+    "id": 6,
+    "nombre": "Keluna Rosé",
+    "description": "Vino rosé, 85% Cabernet Sauvignon / 15% Cabernet Franc",
+    "precio": 13.990,
+    "active": true
+  }
+]
