@@ -1,10 +1,15 @@
 <template>
-    <div class="row">
-
+    <div class="grilla">
+<CardComponent
+v-for="product in products"
+:key="product.id"
+product="product"
+/>
     </div>
 </template>
 
 <script setup>
+import CardComponent from './CardComponent.vue';
 import { defineProps } from 'vue';
 
 defineProps({
@@ -16,4 +21,12 @@ defineProps({
 })
 </script>
 
-<style></style>
+<style scoped>
+.grilla{
+
+    display: flex;
+    flex:row ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+</style>

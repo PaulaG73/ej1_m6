@@ -10,6 +10,23 @@
 </template>
 
 <script setup>
+import { defineProps } from 'vue';
+defineProps({
+    name:{
+        type:String
+    },
+    description:{
+        type:String
+    },
+    precio:{
+        type:Number
+    },
+    active:{
+        type:Boolean
+    }
+
+})
+
 
 </script>
 
