@@ -1,6 +1,6 @@
 <template>
 
-<ProductGrilla
+<GrillaComponent
 :products="products"/>
 
 </template>

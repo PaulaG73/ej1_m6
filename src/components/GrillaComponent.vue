@@ -1,17 +1,19 @@
 <template>
-<div>
+    <div class="row">
 
-</div>
+    </div>
 </template>
 
 <script setup>
 import { defineProps } from 'vue';
+
 defineProps({
-    products: Array,
-    required: true
+    products:{
+        type: Array,
+        required: true
+    }
+
 })
 </script>
 
-<style>
-
-</style>
+<style></style>
