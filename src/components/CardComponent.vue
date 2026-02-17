@@ -1,10 +1,10 @@
 <template>
     <div class="card">
         <div class="container">
-            <h4>Nombre:{{ name }}</h4>
-            <p>Descripción:{{ description }}</p>
-            <p>Precio:{{ precio }}</p>
-            <p>Disponible:{{ active }}</p>
+            <h4>Nombre:{{ product.name }}</h4>
+            <p>Descripción:{{ product.description }}</p>
+            <p>Precio:{{ product.precio }}</p>
+            <p>Disponible:{{ product.active }}</p>
         </div>
     </div>
 
@@ -15,17 +15,9 @@
 
 import { defineProps } from 'vue';
 defineProps({
-    name:{
-        type:String
-    },
-    description:{
-        type:String
-    },
-    precio:{
-        type:Number
-    },
-    active:{
-        type:Boolean
+    product:{
+        type: Object,
+        required: true
     }
 
 })
